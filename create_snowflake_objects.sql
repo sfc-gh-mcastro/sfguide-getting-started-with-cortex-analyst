@@ -62,7 +62,8 @@ CREATE OR REPLACE TABLE cortex_analyst_demo.revenue_timeseries.daily_revenue (
 -- Dimension table: product_dim
 CREATE OR REPLACE TABLE cortex_analyst_demo.revenue_timeseries.product_dim (
     product_id INT,
-    product_line VARCHAR(16777216)
+    product_line VARCHAR(16777216),
+    product_name VARCHAR(16777216)
 );
 
 -- Dimension table: region_dim

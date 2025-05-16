@@ -79,7 +79,17 @@ tables:
           - Home Appliances
           - Toys
           - Books
-
+      - name: product_name
+        expr: product_name
+        description: Product name
+        data_type: varchar
+        sample_values:
+          - Smart TV
+          - Wireless Headphones
+          - Coffee Maker
+          - iPhone 13
+          - iPhone 14
+          - MacBook Pro
   - name: region
     description: Region dimension table with unique region identifiers and geographic attributes.
     base_table:
@@ -111,8 +121,8 @@ tables:
       table: product_dim
 
     dimensions:
-      - name: product_line
-        expr: product_line
+      - name: product_name
+        expr: product_name
         cortex_search_service_name: product_line_search_service
         data_type: varchar
 

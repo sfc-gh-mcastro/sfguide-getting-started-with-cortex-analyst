@@ -1,6 +1,42 @@
-Product_id,Product_line
-1,Electronics
-2,Clothing
-3,Home Appliances
-4,Toys
-5,Books
+product_id,product_line,product_name
+1,Electronics,Smart TV
+1,Electronics,Wireless Headphones
+3,Clothing,T-Shirt
+3,Clothing,Jeans
+5,Home Goods,Coffee Maker
+5,Home Goods,Throw Pillow
+1,Electronics,Laptop
+3,Clothing,Sneakers
+5,Home Goods,Dinnerware Set
+1,Electronics,Bluetooth Speaker
+1,Electronics,iPad Mini
+1,Electronics,iPad Pro
+1,Electronics,iPad Air
+1,Electronics,iPad Pro Max
+2,Accessories,iPad Smart Keyboard
+2,Accessories,Apple Pencil (2nd Generation)
+2,Accessories,iPad Smart Folio - Black
+2,Accessories,USB-C to USB Adapter
+2,Accessories,iPad Smart Folio - White
+2,Accessories,iPad Smart Folio - Pro
+1,Electronics,iPhone 13
+1,Electronics,iPhone 14
+1,Electronics,iPhone 14 Pro
+1,Electronics,iPhone SE (3rd Gen)
+2,Accessories,iPhone Lightning Cable
+2,Accessories,iPhone Clear Case
+2,Accessories,iPhone Screen Protector
+2,Accessories,MagSafe Charger
+1,Electronics,Samsung Galaxy S23
+1,Electronics,Samsung Galaxy S23 Ultra
+1,Electronics,Samsung Galaxy Z Fold 5
+1,Electronics,Google Pixel 7
+1,Electronics,Google Pixel 7 Pro
+1,Electronics,OnePlus 11
+1,Electronics,Xiaomi 13 Pro
+2,Accessories,Samsung USB-C Charging Cable
+2,Accessories,Samsung Galaxy Buds Live
+2,Accessories,Google Pixel Buds Pro
+2,Accessories,Google Pixel Phone Case
+2,Accessories,OnePlus Warp Charger
+2,Accessories,Xiaomi Fast Charger
