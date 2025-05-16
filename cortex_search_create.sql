@@ -10,3 +10,19 @@ CREATE OR REPLACE CORTEX SEARCH SERVICE product_line_search_service
   AS (
         SELECT product_line, product_name FROM product_dim
     );
+
+
+  -- Testing
+  SELECT PARSE_JSON(
+  SNOWFLAKE.CORTEX.SEARCH_PREVIEW(
+      'cortex_analyst_demo.revenue_timeseries.product_line_search_service',
+      '{
+        "query": "give me the ipad devices only? ",
+        "columns":[
+            "product_name",
+            "product_line"
+        ],
+        "limit":10
+      }'
+  )
+)['results'] as results;
